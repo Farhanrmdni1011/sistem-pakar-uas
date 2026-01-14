@@ -173,7 +173,7 @@ const Auth: React.FC<AuthProps> = ({ onLogin }) => {
           
           {!isRegister && (
             <div className="mt-6 p-4 bg-slate-50 rounded-2xl border border-slate-100">
-               <p className="text-[10px] font-bold text-slate-400 uppercase mb-2">Info Akun Demo Admin (Pass: admin123):</p>
+               <p className="text-[10px] font-bold text-slate-400  mb-2">ini akun login buat admin nya (Pass: admin123):</p>
                <div className="grid grid-cols-1 gap-1 text-[11px] text-slate-500">
                  <p>• farhan@gmail.com</p>
                  <p>• kerupukjengkol@gmail.com</p>
