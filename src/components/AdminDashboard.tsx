@@ -90,7 +90,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({
       <div className="grid lg:grid-cols-2 gap-8">
         {/* Charts */}
         <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
-          <h3 className="text-xl font-bold mb-6">
+          <h3 className="text-xl font-bold mb-6 text-center">
             Distribusi Status Ketahanan
           </h3>
           <div className="h-64">
@@ -112,12 +112,10 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({
 
         {/* Recent Activity */}
         <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
-          <div className="p-6 border-b border-slate-50 flex justify-between items-center">
-            <h3 className="font-bold">Log Penilaian Terbaru</h3>
-            <button className="text-blue-600 text-sm hover:underline">
-              Download CSV
-            </button>
-          </div>
+          <div className="p-6 border-b border-slate-50 flex justify-center items-center">
+  <h3 className="font-bold">Log Penilaian Terbaru</h3>
+</div>
+
 
           <div className="overflow-x-auto">
             <table className="w-full text-left">

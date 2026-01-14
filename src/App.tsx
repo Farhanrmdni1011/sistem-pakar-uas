@@ -51,7 +51,16 @@ const deleteAssessment = (id: string) => {
 
   return (
     <HashRouter>
-      <div className="min-h-screen flex flex-col bg-slate-50">
+      <div 
+      className="min-h-screen flex flex-col relative"
+      style={{
+        // Ganti URL gambar di bawah ini dengan foto pilihan Anda
+        backgroundImage: `linear-gradient(to bottom, rgba(225, 229, 223, 0.9), rgba(49, 17, 10, 0.95)), url('https://wallpapercave.com/wp/wp4184159.jpg')`,
+        backgroundSize: 'cover',
+        backgroundAttachment: 'fixed', // Agar background tidak ikut scroll
+        backgroundPosition: 'center'
+      }}
+    >
         {/* Navbar */}
         <nav className="bg-emerald-700 text-white shadow-lg sticky top-0 z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
@@ -91,6 +100,10 @@ const deleteAssessment = (id: string) => {
             </div>
           </div>
         </nav>
+
+        
+
+        
 
         <main className="flex-grow">
           <Routes>

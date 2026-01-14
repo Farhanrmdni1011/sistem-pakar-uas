@@ -46,10 +46,10 @@ const LandingPage: React.FC = () => {
       {/* Trust Section */}
       <div className="bg-white py-10 border-b">
         <div className="max-w-7xl mx-auto px-4 flex flex-wrap justify-center gap-8 md:gap-20 opacity-40 grayscale hover:grayscale-0 transition-all">
-          <div className="flex items-center gap-2 font-black text-xl text-slate-600 italic">Forward Chaining</div>
-          <div className="flex items-center gap-2 font-black text-xl text-slate-600 italic">Fuzzy Logic</div>
-          <div className="flex items-center gap-2 font-black text-xl text-slate-600 italic">Sistem Pakar</div>
-          <div className="flex items-center gap-2 font-black text-xl text-slate-600 italic">UMKM Sektor Pangan</div>
+          <div className="flex items-center gap-2 font-black text-xl text-slate-600 italic">Farhan Ramadani</div>
+          <div className="flex items-center gap-2 font-black text-xl text-slate-600 italic">Anugrah Catona S</div>
+          <div className="flex items-center gap-2 font-black text-xl text-slate-600 italic">Satria Yoshi A</div>
+      
         </div>
       </div>
 
